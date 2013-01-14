@@ -1,0 +1,16 @@
+!!! XML
+!!!
+%html{:xmlns => "http://www.w3.org/1999/xhtml"}
+  %head
+    %title
+      Top Tweets!  
+    %link{:href => "http://#{@host}/css/styles.css", :rel => "stylesheet"}
+  %body
+    %img{:src => "http://#{@host}/images/header.png", :alt => "header"}
+    %table
+      - @starred[0..@n-1].each do |item|
+        %tr
+          %td.tweet
+            %div 
+              = item
+    %img{:src => "http://#{@host}/images/footer.png", :alt => "footer"}
