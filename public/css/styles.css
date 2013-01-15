@@ -1,0 +1,43 @@
+body
+{
+	width:384px;
+	margin:0px;
+	padding:10px 0px 10px 0px;
+}
+
+table 
+{
+	width: 384px;
+}
+
+td
+{
+	font-family:"Quicksand";
+	font-size: 20px;
+}
+
+p
+{
+	font-size: 19px;
+}
+
+div 
+{
+	text-align: justify;
+	padding: 0px;
+}
+
+img
+{
+	width:384px;
+}
+
+.tweet
+{
+	padding: 5px 0px 5px 5px;
+}
+
+.user
+{
+	padding: 5px 5px 5px 0px;
+}

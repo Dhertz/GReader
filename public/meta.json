@@ -1,0 +1,24 @@
+{
+  "owner_email":"berg@dhertz.com",
+  "publication_api_version":"1.0",
+  "name": "Top of Twitter",
+  "description": "The top tweets in your timeline",
+  "delivered_on":"every day",
+  "external_configuration": true,
+  "send_timezone_info": false,
+  "send_delivery_count": false,
+  "config": {
+    "fields": [
+      {
+        "type": "select",
+        "name": "n",
+        "label": "Choose the number of tweets you wish to receive",
+        "options": [
+          ["3 Tweets","3"],
+          ["5 Tweets","5"],
+          ["10 Tweets","10"]
+        ]
+      }
+    ]
+  }
+}

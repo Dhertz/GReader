@@ -3,14 +3,16 @@
 %html{:xmlns => "http://www.w3.org/1999/xhtml"}
   %head
     %title
-      Top Tweets!  
+      Sunday Reading  
     %link{:href => "http://#{@host}/css/styles.css", :rel => "stylesheet"}
   %body
     %img{:src => "http://#{@host}/images/header.png", :alt => "header"}
     %table
-      - @starred[0..@n-1].each do |item|
+      - @items.each do |item|
         %tr
           %td.tweet
             %div 
-              = item
+              = item['title']
+            %div
+              = item['content']['content']
     %img{:src => "http://#{@host}/images/footer.png", :alt => "footer"}
