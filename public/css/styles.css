@@ -29,6 +29,8 @@ div
 
 img
 {
-	max-width: 384px;
+	max-width: 378px;
+	margin:0px;
+	padding:0px;
 	height: auto;
 }
