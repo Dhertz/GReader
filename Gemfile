@@ -5,4 +5,4 @@ gem "omniauth"
 gem 'omniauth-google-oauth2'
 gem 'google-reader-api'
 gem 'haml'
-gem 'ezhttp'
+gem 'ez_http'
