@@ -29,3 +29,9 @@ img
 	padding:0px;
 	height: auto;
 }
+
+.title
+{
+	text-decoration:underline
+	font-size:19px;
+}
