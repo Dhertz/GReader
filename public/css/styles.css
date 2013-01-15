@@ -1,10 +1,8 @@
 body
 {
-	width:384px;
 	margin:0px;
 	padding:10px 0px 10px 0px;
 }
-
 table 
 {
 	width: 384px;
@@ -13,7 +11,7 @@ table
 td
 {
 	font-family:"Quicksand";
-	font-size: 20px;
+	font-size: 18px;
 }
 
 p
@@ -25,10 +23,12 @@ div
 {
 	text-align: justify;
 	padding: 0px;
+	width: 384px;
+	overflow-x:hidden; 
 }
 
 img
 {
-	width:384px;
-	margin:0px;
+	max-width: 384px;
+	height: auto;
 }

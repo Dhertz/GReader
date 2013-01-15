@@ -14,5 +14,8 @@
             %div 
               = item['title']
             %div
-              = item['content']['content']
+              - if item['content']
+                = item['content']['content']
+              - else
+                = item['summary']['content']
     %img{:src => "http://#{@host}/images/footer.png", :alt => "footer"}
